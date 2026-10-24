@@ -16,6 +16,10 @@ echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
+```
+psql -h <hostname> -p 5432 -U <username> -d <database>
+```
+
 ---
 
 connect to magma database:
