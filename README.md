@@ -7,6 +7,12 @@
 [![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/shubhamtatvamasi/psql/latest)](https://hub.docker.com/r/shubhamtatvamasi/psql)
 [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/shubhamtatvamasi/psql)](https://hub.docker.com/r/shubhamtatvamasi/psql)
 
+```
+brew install libpq
+```
+
+---
+
 connect to magma database:
 ```bash
 PGPASSWORD=postgres psql -U postgres -d magma
